@@ -5,6 +5,7 @@ import com.pedropathing.localization.constants.*;
 
 public class LConstants {
     static {
+        //@TODO TUNE THE OTOS FOLLOW THE DOCS
         OTOSConstants.useCorrectedOTOSClass = false;
         OTOSConstants.hardwareMapName = "sensor_otos";
         OTOSConstants.linearUnit = DistanceUnit.INCH;
